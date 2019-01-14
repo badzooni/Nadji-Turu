@@ -1,0 +1,30 @@
+.nt-navbar {
+  min-height: 90px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.13);
+  background-color: $white;
+  a {
+    font-size: $size-15;
+    font-weight: $weight-600;
+    color: $gray-3;
+    font-family: 'Muli-Bold', sans-serif;
+  }
+}
+.margin-body {
+  margin-top: 85px;
+}
+.text-margin {
+  margin-top: 34px;
+  h1 {
+    font-size: 40px;
+    font-family: 'Muli-Bold', sans-serif;
+  }
+}
+.text-margin2 {
+  margin-top: $size-20;
+  h1 {
+    color: $gray-3;
+  }
+}
+.company-type-img {
+  width: 100%;
+}
