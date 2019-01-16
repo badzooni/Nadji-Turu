@@ -1,0 +1,78 @@
+.margin-body {
+  margin-top: 85px;
+}
+.text-margin {
+  margin-top: 34px;
+  h1 {
+    font-size: 40px;
+    font-family: 'Muli-Bold', sans-serif;
+  }
+}
+.text-margin2 {
+  margin-top: $size-20;
+  h1 {
+    color: $gray-3;
+  }
+}
+.section-margin {
+  position: relative;
+  &--first {
+    margin-top: 95px;
+  }
+  &--second {
+    margin-top: 219px;
+  }
+  h1 {
+    font-size: $size-30;
+    font-family: 'Muli-Bold', sans-serif;
+  }
+  h3 {
+    line-height: 1.67;
+    color: $gray-3;
+  }
+  .first-section-padding {
+    padding-top: 90px;
+    @include media-breakpoint-down(md) {
+      padding-top: 0px;
+    }
+  }
+  .circle-badge {
+    h3 {
+      color: $white;
+    }
+  }
+  .company-type-img {
+    width: 100%;
+  }
+}
+.road-img {
+  width: 100%;
+  position: absolute;
+  bottom: -220px;
+  .nt-image {
+    width: 96%;
+    min-height: 284px;
+    //background-image: url('../images/road1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    &--road1 {
+      background-image: url('../images/road1.svg');
+    }
+    &--road2 {
+      background-image: url('../images/road2.svg');
+    }
+   @include media-breakpoint-down(md) {
+      display: none;
+    }
+
+    .gradient {
+      width: 500px;
+      opacity: 1;
+      min-height: 284px;
+      position: absolute;
+      background: linear-gradient(90deg, rgba(255,255,255,1), rgba(255,255,255,0));
+    }
+  }
+}

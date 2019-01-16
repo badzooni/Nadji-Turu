@@ -1,5 +1,7 @@
 .nt-freighter .txt-primary {
   color: #f9b235; }
+.nt-freighter .badge-bg {
+  background-color: #f9b235; }
 
 .nt-trucker .txt-primary {
   color: #02bebe; }
@@ -7551,12 +7553,72 @@ h6 {
   line-height: normal;
   color: #354052; }
 
+.margin-body {
+  margin-top: 85px; }
+
+.text-margin {
+  margin-top: 34px; }
+  .text-margin h1 {
+    font-size: 40px;
+    font-family: 'Muli-Bold', sans-serif; }
+
+.text-margin2 {
+  margin-top: 1.25rem; }
+  .text-margin2 h1 {
+    color: #7f8fa4; }
+
+.section-margin {
+  position: relative; }
+  .section-margin--first {
+    margin-top: 95px; }
+  .section-margin--second {
+    margin-top: 219px; }
+  .section-margin h1 {
+    font-size: 1.875rem;
+    font-family: 'Muli-Bold', sans-serif; }
+  .section-margin h3 {
+    line-height: 1.67;
+    color: #7f8fa4; }
+  .section-margin .first-section-padding {
+    padding-top: 90px; }
+    @media (max-width: 991.98px) {
+      .section-margin .first-section-padding {
+        padding-top: 0px; } }
+  .section-margin .circle-badge h3 {
+    color: #fff; }
+  .section-margin .company-type-img {
+    width: 100%; }
+
+.road-img {
+  width: 100%;
+  position: absolute;
+  bottom: -220px; }
+  .road-img .nt-image {
+    width: 96%;
+    min-height: 284px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative; }
+    .road-img .nt-image--road1 {
+      background-image: url("../images/road1.svg"); }
+    .road-img .nt-image--road2 {
+      background-image: url("../images/road2.svg"); }
+    @media (max-width: 991.98px) {
+      .road-img .nt-image {
+        display: none; } }
+    .road-img .nt-image .gradient {
+      width: 500px;
+      opacity: 1;
+      min-height: 284px;
+      position: absolute;
+      background: linear-gradient(90deg, white, rgba(255, 255, 255, 0)); }
+
 .btn-navbar {
   border-radius: 0.25rem;
   font-size: 0.9375rem;
   border: 1.5px solid #d0d8dc;
   color: #7f8fa4;
-  height: 25px;
   font-weight: 600; }
   .btn-navbar:focus {
     box-shadow: none; }
@@ -7587,22 +7649,5 @@ h6 {
     font-weight: 600;
     color: #7f8fa4;
     font-family: 'Muli-Bold', sans-serif; }
-
-.margin-body {
-  margin-top: 85px; }
-
-.text-margin {
-  margin-top: 34px; }
-  .text-margin h1 {
-    font-size: 40px;
-    font-family: 'Muli-Bold', sans-serif; }
-
-.text-margin2 {
-  margin-top: 1.25rem; }
-  .text-margin2 h1 {
-    color: #7f8fa4; }
-
-.company-type-img {
-  width: 100%; }
 
 /*# sourceMappingURL=custom.css.map */
