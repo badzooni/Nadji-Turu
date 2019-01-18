@@ -1,54 +1,73 @@
 .margin-body {
   margin-top: 85px;
 }
+
 .text-margin {
   margin-top: 34px;
+
   h1 {
     font-size: 40px;
     font-family: 'Muli-Bold', sans-serif;
+    text-align: center;
   }
 }
+
 .text-margin2 {
   margin-top: $size-20;
+
   h1 {
     color: $gray-3;
+    text-align: center;
   }
 }
+
 .section-margin {
   position: relative;
+
   &--first {
     margin-top: 95px;
   }
+
   &--second {
     margin-top: 219px;
+    @include media-breakpoint-down(md) {
+      margin-top: 100px;
+    }
   }
+
   h1 {
     font-size: $size-30;
     font-family: 'Muli-Bold', sans-serif;
   }
+
   h3 {
     line-height: 1.67;
     color: $gray-3;
   }
+
   .first-section-padding {
     padding-top: 90px;
     @include media-breakpoint-down(md) {
       padding-top: 0px;
     }
   }
+
   .circle-badge {
     h3 {
       color: $white;
     }
   }
+
   .company-type-img {
     width: 100%;
   }
 }
+
 .road-img {
   width: 100%;
   position: absolute;
   bottom: -220px;
+
   .nt-image {
     width: 96%;
     min-height: 284px;
@@ -57,13 +76,16 @@
     background-position: center;
     background-size: cover;
     position: relative;
+
     &--road1 {
       background-image: url('../images/road1.svg');
     }
+
     &--road2 {
       background-image: url('../images/road2.svg');
     }
-   @include media-breakpoint-down(md) {
+
+    @include media-breakpoint-down(md) {
       display: none;
     }
 
@@ -72,7 +94,44 @@
       opacity: 1;
       min-height: 284px;
       position: absolute;
-      background: linear-gradient(90deg, rgba(255,255,255,1), rgba(255,255,255,0));
+      background: linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
     }
+  }
+}
+
+.sn-details {
+  height: 100px;
+  margin-top: 70px;
+  background-color: rgba(242, 242, 242, 0.55);
+
+  .sn-icon {
+    font-size: 35px;
+    padding-left: 60px;
+    color: $gray-2;
+    cursor: pointer;
+  }
+}
+
+.foot-details {
+  background-color: $gray-1;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.nt-description-text {
+  h2 {
+    opacity: 0.7;
+    line-height: 1.5;
+    text-align: center;
+    color: $white;
+  }
+}
+
+.nt-copyright {
+  text-align: center;
+
+  h2 {
+    color: $white;
+    opacity: 0.7;
   }
 }

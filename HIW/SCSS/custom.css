@@ -5,6 +5,8 @@
 
 .nt-trucker .txt-primary {
   color: #02bebe; }
+.nt-trucker .badge-bg {
+  background-color: #02bebe; }
 
 /*!
  * Bootstrap v4.2.1 (https://getbootstrap.com/)
@@ -7560,12 +7562,14 @@ h6 {
   margin-top: 34px; }
   .text-margin h1 {
     font-size: 40px;
-    font-family: 'Muli-Bold', sans-serif; }
+    font-family: 'Muli-Bold', sans-serif;
+    text-align: center; }
 
 .text-margin2 {
   margin-top: 1.25rem; }
   .text-margin2 h1 {
-    color: #7f8fa4; }
+    color: #7f8fa4;
+    text-align: center; }
 
 .section-margin {
   position: relative; }
@@ -7573,6 +7577,9 @@ h6 {
     margin-top: 95px; }
   .section-margin--second {
     margin-top: 219px; }
+    @media (max-width: 991.98px) {
+      .section-margin--second {
+        margin-top: 100px; } }
   .section-margin h1 {
     font-size: 1.875rem;
     font-family: 'Muli-Bold', sans-serif; }
@@ -7614,6 +7621,33 @@ h6 {
       position: absolute;
       background: linear-gradient(90deg, white, rgba(255, 255, 255, 0)); }
 
+.sn-details {
+  height: 100px;
+  margin-top: 70px;
+  background-color: rgba(242, 242, 242, 0.55); }
+  .sn-details .sn-icon {
+    font-size: 35px;
+    padding-left: 60px;
+    color: #b2bec4;
+    cursor: pointer; }
+
+.foot-details {
+  background-color: #283238;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.nt-description-text h2 {
+  opacity: 0.7;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff; }
+
+.nt-copyright {
+  text-align: center; }
+  .nt-copyright h2 {
+    color: #fff;
+    opacity: 0.7; }
+
 .btn-navbar {
   border-radius: 0.25rem;
   font-size: 0.9375rem;
@@ -7640,6 +7674,69 @@ h6 {
   background-color: red;
   color: white; }
 
+.btn-footer {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--grey-1);
+  font-family: 'Muli-Semibold', sans-serif; }
+  @media (max-width: 767.98px) {
+    .btn-footer {
+      margin-top: 20px; } }
+  .btn-footer:focus {
+    box-shadow: none; }
+
+.btn-submit-form {
+  width: 127px;
+  color: #fff;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  font-family: 'Muli-Semibold', sans-serif; }
+
+.nt-form {
+  margin-bottom: 80px;
+  margin-top: 50px; }
+  .nt-form input {
+    width: 350px;
+    height: auto;
+    text-align: center;
+    background-color: #283238;
+    border-radius: 0.25rem;
+    border: 1.5px solid rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.25rem; }
+    .nt-form input::placeholder {
+      color: #fff;
+      opacity: 0.7;
+      font-size: 1.25rem;
+      font-weight: 600;
+      font-family: 'Muli-Semibold', sans-serif; }
+    .nt-form input:focus {
+      outline: none; }
+
+.heading-form h1 {
+  font-size: 2.5rem;
+  font-family: 'Muli- Bold', sans-serif; }
+
+.nt-label h6 {
+  font-weight: 600;
+  font-family: 'Muli-Semibold', sans-serif; }
+
+.input-form-nt input {
+  border: 1px solid #e6eaee;
+  color: #7f8fa4;
+  font-size: 1rem;
+  height: 2.75rem; }
+  .input-form-nt input:focus {
+    box-shadow: none;
+    border: 1px solid #e6eaee; }
+  .input-form-nt input::placeholder {
+    color: #7f8fa4;
+    font-size: 0.875rem;
+    font-family: 'Muli-Semibold', sans-serif; }
+
 .nt-navbar {
   min-height: 90px;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.13);
@@ -7648,6 +7745,7 @@ h6 {
     font-size: 0.9375rem;
     font-weight: 600;
     color: #7f8fa4;
-    font-family: 'Muli-Bold', sans-serif; }
+    font-family: 'Muli-Bold', sans-serif;
+    cursor: pointer; }
 
 /*# sourceMappingURL=custom.css.map */
