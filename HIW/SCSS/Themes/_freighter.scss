@@ -5,4 +5,16 @@
   .badge-bg {
     background-color: $orange-1;
   }
+  .btn-hvr {
+    &:hover {
+      background-color: $white;
+      color: $orange-1;
+      border: 1px solid $orange-1;
+    }
+  }
+  .sn-icon {
+    &:hover {
+      color: $orange-1;
+    }
+  }
 }
