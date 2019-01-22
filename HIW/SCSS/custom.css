@@ -7567,7 +7567,7 @@ h6 {
   line-height: normal;
   color: #354052; }
 
-.margin-body {
+.position-btn {
   margin-top: 80px; }
 
 .text-margin {
@@ -7606,7 +7606,9 @@ h6 {
   .section-margin .circle-badge h3 {
     color: #fff; }
   .section-margin .company-type-img {
-    width: 100%; }
+    width: 100%;
+    position: relative;
+    z-index: 2; }
 
 .road-img {
   width: 100%;
@@ -7767,5 +7769,8 @@ h6 {
     color: #7f8fa4;
     font-family: 'Muli-Bold', sans-serif;
     cursor: pointer; }
+  @media (max-width: 991.98px) {
+    .nt-navbar li {
+      margin-left: 0 !important; } }
 
 /*# sourceMappingURL=custom.css.map */

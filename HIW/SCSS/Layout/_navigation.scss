@@ -9,4 +9,9 @@
     font-family: 'Muli-Bold', sans-serif;
     cursor: pointer;
   }
+  @include media-breakpoint-down(md) {
+    li {
+      margin-left: 0!important;
+    }
+  }
 }
