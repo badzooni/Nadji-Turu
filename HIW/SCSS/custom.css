@@ -7667,6 +7667,9 @@ h6 {
     color: #fff;
     opacity: 0.7; }
 
+.collapse-btn-nt:focus {
+  outline: none; }
+
 .btn-navbar {
   border-radius: 0.25rem;
   font-size: 0.9375rem;

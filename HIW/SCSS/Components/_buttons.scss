@@ -1,3 +1,8 @@
+.collapse-btn-nt {
+  &:focus {
+    outline: none;
+  }
+}
 .btn-navbar {
   border-radius: $size-4;
   font-size: $size-15;
